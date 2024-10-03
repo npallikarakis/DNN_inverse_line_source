@@ -18,7 +18,7 @@ In this case, we predict both the positions and strengths of two line sources. T
 
 **Data Generation for the Direct Problem:**
 The direct scattering problems were solved analytically. Specifically, the data were generated numerically from the surface fields (solutions of the direct scattering problem), evaluated at the surface ρ=α. For our experiments, we used an electric radius 
-ka=2 (representative of an intermediate frequency regime) and a refractive index η=1.75. The series used in the solution were truncated at n=25 to ensure maximum accuracy. Surface measurements were taken at 10 evenly spaced observation angles, 0≤ϕ<2π, with a step of 
+kα=2 (representative of an intermediate frequency regime) and a refractive index η=1.75. The series used in the solution were truncated at n=25 to ensure maximum accuracy. Surface measurements were taken at 10 evenly spaced observation angles, 0≤ϕ<2π, with a step of 
 π/5.
 
 **Datasets:**

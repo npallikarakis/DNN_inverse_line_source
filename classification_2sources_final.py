@@ -1,4 +1,5 @@
-####Nikolaos Pallikarakis##############
+print('----------- classification MLP for two sources -------------------')
+print('----------- Copyright (C) 2024 N. Pallikarakis ----------------------------------')
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, LeakyReLU

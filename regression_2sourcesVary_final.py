@@ -1,4 +1,5 @@
-###### Nikolaos Pallikarakis ###########
+print('----------- regression MLP for two sources with variable strength -------------------')
+print('----------- Copyright (C) 2024 N. Pallikarakis ----------------------------------')
 
 import tensorflow as tf
 from tensorflow.keras.models import Sequential

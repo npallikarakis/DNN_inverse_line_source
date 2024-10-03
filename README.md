@@ -25,8 +25,10 @@ of a single line source inside the dielectric cylinder. This problem is faced as
 regression problem, to predict all parameters of interest with the same model.
 File regression_1source_final.py,  includes the corresponding python code. 
 
-**2. Inverse problem with two sources and fixed strength**
-We solve the inverse source problem to predict the position and strength
-of a single line source inside the dielectric cylinder. This problem is faced as a multioutput
-regression problem, to predict all parameters of interest with the same model.
-File regression_1source_final.py,  includes the corresponding python code. 
+**3. Inverse problem with two sources and fixed strength**
+The inverse problem of predicting the positions of two line sources having fixed strength
+File regression_2sourcesFix_final.py,  includes the corresponding python code. 
+
+**4. Inverse problem with two sources and variable strength**
+The inverse problem of predicting the positions together with the strengths of two line sources.
+File regression_2sourcesVary_final.py,  includes the corresponding python code. 

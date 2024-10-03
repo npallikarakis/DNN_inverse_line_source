@@ -1,4 +1,5 @@
-##### Nikolaos Pallikarakis #############
+print('----------- regression MLP fpr one source -------------------')
+print('----------- Copyright (C) 2024 N. Pallikarakis ----------------------------------')
 
 
 import tensorflow as tf

@@ -26,7 +26,7 @@ regression problem, to predict all parameters of interest with the same model.
 File regression_1source_final.py,  includes the corresponding python code.
 
 **3. Inverse problem with two sources and fixed strength:**
-The inverse problem of predicting the positions of two line sources having fixed strength
+The inverse problem of predicting the positions of two line sources having fixed strength.
 File regression_2sourcesFix_final.py,  includes the corresponding python code. 
 
 **4. Inverse problem with two sources and variable strength:**

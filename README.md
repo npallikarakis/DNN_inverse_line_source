@@ -5,16 +5,16 @@ This repository provides the implementation and data used in the study, which ex
 **Problem Breakdown:**
 
 **Classification Problem:**
-We classify the number of unknown sources, N=1 or 2, using the surface electric and magnetic fields. The corresponding Python code can be found in the file classification_2sources_final.py.
+We classify the number of unknown sources, N=1 or 2, using the surface electric and magnetic fields. The corresponding Python code can be found in the file "classification_2sources_final.py".
 
 **Inverse Problem with One Source:**
-We predict the position and strength of a single line source inside the dielectric cylinder. This multi-output regression problem is solved in the file regression_1source_final.py.
+We predict the position and strength of a single line source inside the dielectric cylinder. This regression problem is solved in the file "regression_1source_final.py".
 
 **Inverse Problem with Two Sources and Fixed Strength:**
-We predict the positions of two line sources, assuming their strengths are fixed. The Python code for this is in regression_2sourcesFix_final.py.
+We predict the positions of two line sources, assuming their strengths are fixed. The Python code for this is in "regression_2sourcesFix_final.py".
 
 **Inverse Problem with Two Sources and Variable Strength:**
-In this case, we predict both the positions and strengths of two line sources. The implementation can be found in regression_2sourcesVary_final.py.
+In this case, we predict both the positions and strengths of two line sources. The implementation can be found in "regression_2sourcesVary_final.py".
 
 **Data Generation for the Direct Problem:**
 The direct scattering problems were solved analytically. Specifically, the data were generated numerically from the surface fields (solutions of the direct scattering problem), evaluated at the surface ρ=α. For our experiments, we used an electric radius 

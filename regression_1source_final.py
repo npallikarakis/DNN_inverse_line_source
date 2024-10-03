@@ -1,4 +1,4 @@
-print('----------- regression MLP fpr one source -------------------')
+print('----------- regression MLP for one source -------------------')
 print('----------- Copyright (C) 2024 N. Pallikarakis ----------------------------------')
 
 

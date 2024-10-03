@@ -1,5 +1,5 @@
 # DNN_inverse_line_source
-**scripts, code and data for the paper "Exploring the inverse line-source scattering problem in dielectric cylinders with deep neural networks" **
+**scripts, code and data for the paper "Exploring the inverse line-source scattering problem in dielectric cylinders with deep neural networks"**
 (published in )
 
 This study presents a novel approach utilizing **deep neural networks to
@@ -12,4 +12,21 @@ solution representation. Through extended numerical experiments, we demonstrate
 the efficiency of our approach, including scenarios involving noise, reduced sample
 sizes, and fewer measurements. Additionally, we examine the empirical scaling laws
 governing model performance and conduct a local analysis to explore how our neural
-networks handle the inherent ill-posedness of the considered inverse problems
+networks handle the inherent ill-posedness of the considered inverse problems. 
+
+**1. Classification problem**
+We solve the first inverse problem, that is classifying the number of
+unknown sources N = 1 or N = 2, from the knowledge of surface electric and magnetic
+fields. File classification_2sources_final.py,  includes the corresponding python code. 
+
+**2. Inverse problem with one source**
+We solve the inverse source problem to predict the position and strength
+of a single line source inside the dielectric cylinder. This problem is faced as a multioutput
+regression problem, to predict all parameters of interest with the same model.
+File regression_1source_final.py,  includes the corresponding python code. 
+
+**2. Inverse problem with two sources and fixed strength**
+We solve the inverse source problem to predict the position and strength
+of a single line source inside the dielectric cylinder. This problem is faced as a multioutput
+regression problem, to predict all parameters of interest with the same model.
+File regression_1source_final.py,  includes the corresponding python code. 

@@ -1,9 +1,9 @@
 # DNN_inverse_line_source
-scripts, code and data for the paper "Exploring the inverse line-source scattering problem in dielectric cylinders with deep neural networks" 
+**scripts, code and data for the paper "Exploring the inverse line-source scattering problem in dielectric cylinders with deep neural networks" **
 (published in )
 
-This study presents a novel approach utilizing deep neural networks to
-address the inverse line-source scattering problem in dielectric cylinders. By employing
+This study presents a novel approach utilizing **deep neural networks to
+address the inverse line-source scattering problem in dielectric cylinders**. By employing
 Multi-layer Perceptron models, we intend to identify the number, positions, and
 strengths of hidden internal sources. This is performed by using single-frequency
 phased data, from limited measurements of real electric and real magnetic surface fields.
